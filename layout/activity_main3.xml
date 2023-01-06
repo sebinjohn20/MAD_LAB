@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D70D8"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fb1"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="41dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="FUll NAME"
+        android:inputType="textPersonName"
+        android:nestedScrollingEnabled="false"
+        android:singleLine="false"
+        android:textColor="#FAF6F6"
+        android:textColorHint="#F8F5F5"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="178dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="EMAIL"
+
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="236dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="PHONE"
+
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="299dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="359dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="CONFIRM PASSWORD"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="427dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#0753ED"
+        android:onClick="onClick"
+        android:text="CREATE"
+
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+
+</LinearLayout>
