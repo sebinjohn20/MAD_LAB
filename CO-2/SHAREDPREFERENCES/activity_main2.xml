@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/det"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30px"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/black"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION DETAILS" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="NAME"
+        android:textColor="#23ECD4"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:textColor="#23ECD4"
+        android:fontFamily="serif"
+        android:layout_marginTop="30px"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL" />
+
+    <TextView
+        android:id="@+id/location"
+        android:textColor="#23ECD4"
+        android:fontFamily="serif"
+        android:layout_marginTop="30px"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOCATION" />
+</LinearLayout>
